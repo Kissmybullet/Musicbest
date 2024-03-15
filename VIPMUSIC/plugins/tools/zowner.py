@@ -36,7 +36,7 @@ from VIPMUSIC.utils.database import get_assistant, is_active_chat
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/4b52da6d880cbb199298a.jpg",
+        photo=f"https://telegra.ph/file/b7d70c2a4195f3ce594dc.png",
         caption=f"""This Repo is Now private""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -54,7 +54,7 @@ async def help(client: Client, message: Message):
 async def help(client: Client, message: Message):
     userbot = await get_assistant(chat_id)
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/4b52da6d880cbb199298a.jpg",
+        photo=f"https://telegra.ph/file/b7d70c2a4195f3ce594dc.png",
         caption=f"""This Repo is Now private""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -71,7 +71,7 @@ async def help(client: Client, message: Message):
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/4b52da6d880cbb199298a.jpg",
+        photo=f"https://telegra.ph/file/b7d70c2a4195f3ce594dc.png",
         caption=f"""This Repo is Now private""",
         reply_markup=InlineKeyboardMarkup(
             [
